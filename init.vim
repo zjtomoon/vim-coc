@@ -117,6 +117,10 @@ function CompileRun()
 			set splitbelow
 			:sp
 			:term lua %
+		elseif &filetype == 'python'
+			set splitbelow
+			:sp
+			:term python3 %
 		endif
 endfunction
 
@@ -304,7 +308,7 @@ let g:coc_global_extensions = [
 	\'coc-sh',
 	\'coc-json',
 	\'coc-sumneko-lua',
-	\'coc-rome',
+	\'coc-tsserver',
 	\'coc-pyright',
 	\'coc-explorer']
 
