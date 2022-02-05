@@ -219,7 +219,6 @@ Plug 'preservim/nerdtree'
   "Plug 'wellle/context.vim'
   Plug 'svermeulen/vim-subversive'
   Plug 'rhysd/clever-f.vim'
-  Plug 'AndrewRadev/splitjoin.vim'
   " Plug 'jeffkreeftmeijer/vim-numbertoggle'
   Plug 'Yggdroot/indentLine'
 
