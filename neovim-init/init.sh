@@ -8,9 +8,9 @@ cp ../init.vim ~/.config/nvim/init.vim
 #安装nodejs以安装coc插件
 mkdir -p ~/download
 cd ~/download
-wget https://nodejs.org/download/release/v12.22.0/node-v12.22.0-linux-x64.tar.gz
+wget https://nodejs.org/download/release/v15.0.0/node-v15.0.0-linux-x64.tar.gz
 mkdir ~/software
-tar -zxvf node-v12.22.0-linux-x64.tar.gz -C ~/software
+tar -zxvf node-v15.0.0-linux-x64.tar.gz -C ~/software
 
 #下载和安装nvim
 cd ~/download
