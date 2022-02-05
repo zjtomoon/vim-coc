@@ -170,8 +170,9 @@ Plug 'preservim/nerdtree'
 
 
   " Auto Complete
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  " Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
+  "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+  "Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
   Plug 'wellle/tmux-complete.vim'
 
   " Snippets
@@ -187,9 +188,6 @@ Plug 'preservim/nerdtree'
   " HTML, CSS, JavaScript, Typescript, PHP, JSON, etc.
   Plug 'elzr/vim-json'
   Plug 'neoclide/jsonc.vim'
-
-  " Go
-  Plug 'fatih/vim-go' , { 'for': ['go', 'vim-plug'], 'tag': '*' }
 
       " Markdown
   Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
@@ -299,7 +297,7 @@ let g:coc_global_extensions = [
 	\'coc-prettier',
 	\'coc-vimlsp',
 	\'coc-go',
-	\'coc-rust-analyzer',
+	\'coc-rls',
 	\'coc-cmake',
 	\'coc-clangd',
 	\'coc-sql',
