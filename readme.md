@@ -6,8 +6,6 @@
 > 
 > node >= 12.22
 
-
-
 # 初始化
 
 + 1、执行init.sh，把配置文件拷贝到适当位置
@@ -19,3 +17,11 @@
 + 4、打开vim,执行:PlugInstall命令，安装vim插件
 
 + 5、再次打开vim 安装coc插件
+
+# 其他
+
+neovim 0.6以上版本自带lsp语言支持，有兴趣可以尝试
+
+[neovim lua配置](https://github.com/zjtomoon/lua-neovim.git)
+
+
