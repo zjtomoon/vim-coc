@@ -19,6 +19,10 @@ https://gitcode.net/mirrors/
 ```bash
 mkdir download # ~/downloadcd ~/download
 wget https://github.com/zjtomoon/vim-config/releases/download/v1.0.0/linux-x64.zipunzip linux-x64.zip
+#macos
+wget https://github.com/zjtomoon/vim-config/releases/download/v1.0.0/osx-x64.zip
+#windows
+wget https://github.com/zjtomoon/vim-config/releases/download/v1.0.0/win10-x64.zip
 mv linux-x64 ~/software
 ```
 
@@ -81,5 +85,3 @@ sudo ./FastGithub start
 sudo yum install libicu libicu-devel libunwind
 #ubuntusudo apt-get install libicu-dev
 ```
-
-
