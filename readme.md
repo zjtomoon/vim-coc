@@ -4,9 +4,9 @@
 
 ```bash
 # linux
-wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim-linux64.tar.gz
+wget https://github.com/neovim/neovim/releases/download/v0.6.0/nvim-linux64.tar.gz
 # macos
-wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim-macos.tar.gz
+wget https://github.com/neovim/neovim/releases/download/v0.6.0/nvim-macos.tar.gz
 tar -zxvf nvim-linux64.tar.gz -C ~/software
 ```
 
@@ -39,5 +39,3 @@ tar -zxvf nvim-linux64.tar.gz -C ~/software
 neovim 0.6以上版本自带lsp语言支持，有兴趣可以尝试
 
 [neovim lua配置](https://github.com/zjtomoon/lua-neovim.git)
-
-
